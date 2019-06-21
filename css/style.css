@@ -296,8 +296,7 @@ color: red;
 }
 
 #educated, #husbandssecret, #littlefires {
-  height: 315px;
-  width: 200px;
+  width: 30%
   position: relative;
 
 }
