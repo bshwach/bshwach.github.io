@@ -32,6 +32,7 @@ li {
   list-style: none;
 }
 
+
 /* Headings
    ================================================================ */
 h1, h2 {
@@ -197,7 +198,8 @@ button {
   margin-top: -3px;
   padding: 0;
   border: 2px solid #dfdfdf;
-  position: absolute;
+  background: salmon;
+ /* position: absolute;*/
 }
 
 
@@ -242,7 +244,8 @@ button {
 }
 
 td {
-  border: 2px solid rgb(78, 175, 191);
+  /*border: 2px solid rgb(78, 175, 191);*/
+  background: white;
   border-radius: 10px;
 }
 
@@ -296,8 +299,7 @@ color: red;
 }
 
 #educated, #husbandssecret, #littlefires {
-  height: 315px;
-  width: 200px;
-  position: relative;
+  width: 30%;
+/*  position: relative;*/
 
 }
