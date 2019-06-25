@@ -173,7 +173,7 @@ button {
   position: relative;
   z-index: 1;
   display: block;
-  width: 200px;
+  width: 50%;
   margin: 0 auto;
   padding: 10px;
   cursor: pointer;
@@ -193,13 +193,12 @@ button {
 
 .dropdown1 ul, .dropdown2 ul, .dropdown3 ul {
   overflow: hidden;
-  width: 200px;
+  width: 50%;
   margin: 0 auto;
   margin-top: -3px;
   padding: 0;
   border: 2px solid #dfdfdf;
-  background: salmon;
- /* position: absolute;*/
+  position: relative;
 }
 
 
@@ -227,6 +226,7 @@ button {
   margin: 1%;
   padding: 0 20px;
   border-radius: 4px;
+  float: left;
 
 }
 
@@ -250,48 +250,6 @@ td {
 }
 
 
-
-
-
-/*   ================================================================ */
-/*.*//*faqs {
-  margin-bottom: 80px;
-}
-
-.faqs ul {
-  margin-top: 30px;
-}
-
-.faqs li {
-  width: 100%;
-}
-
-.faqs li:nth-child(odd) {
-  font-family: "Roboto", "Merriweather", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: italic;
-  line-height: 48px;
-  margin: 0;
-  padding: 0 1em;
-  cursor: pointer;
-  text-transform: uppercase;
-  border-bottom: 2px solid #cdcdcd;
-  background: #e5e5e5;
-}
-
-.faqs li:nth-child(even) {
-  line-height: 50px;
-  margin: 0;
-  padding-left: 1em;
-}
-
-.faqs li.active {
-  background-color: #ffd800;
-}*/
-
-/* Your CSS goes here!
-   ================================================================ */
 .fun {
   /* Add your styles here! background-color and color for fonts (and other styles if you'd like!) */
 background-color: pink;
@@ -299,14 +257,54 @@ color: red;
 }
 
 #educated, #husbandssecret, #littlefires {
-<<<<<<< HEAD
-  width: 30%;
-/*  position: relative;*/
-=======
-  width: 30%
+  width: 50%;
   position: relative;
->>>>>>> b635be47034d02d5bcebf5503b680cb862303dff
+}
 
+
+
+
+
+@media screen and (max-width: 900px) {
+  html {
+ font-size: 15px;
+  }
+
+h1 {
+font-size: 50px;
+}
+
+#educated, #husbandssecret, #littlefires {
+  width: 30%;
+  position: relative;
+}
+
+
+.dropdown1 ul, .dropdown2 ul, .dropdown3 ul {
+  overflow: hidden;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: -3px;
+  padding: 0;
+  border: 2px solid #dfdfdf;
+  position: relative;
+}
+
+button {
+  font-family: 'Lily Script One', cursive;
+  font-size: 24px;
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px;
+  border-radius: 4px;
+  outline: 0;
+  background-color: #dfdfdf;
+  box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
 }
 
 /* =================================================================*/
