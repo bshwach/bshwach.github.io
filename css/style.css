@@ -299,7 +299,38 @@ color: red;
 }
 
 #educated, #husbandssecret, #littlefires {
+<<<<<<< HEAD
   width: 30%;
 /*  position: relative;*/
+=======
+  width: 30%
+  position: relative;
+>>>>>>> b635be47034d02d5bcebf5503b680cb862303dff
 
 }
+
+/* =================================================================*/
+
+/* .chats {
+  background: white;
+  padding: 20px;
+}
+
+.chatwrapper {
+  display: block;
+  margin: 0 0 5px 0;
+}
+
+.chat {
+   display: inline-block;
+   padding: 10px;
+  background: white;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.chattimestamp {
+  padding: 5px;
+  font-size: 11px;
+}
+ */
