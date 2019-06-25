@@ -42,7 +42,7 @@ h1, h2 {
 
 h1 {
   font-family: 'Lily Script One', cursive;
-  font-size: 80px;
+  font-size: 120px;
   text-align: center;
   color: rgb(78, 175, 191);
 }
@@ -173,7 +173,7 @@ button {
   position: relative;
   z-index: 1;
   display: block;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   padding: 10px;
   cursor: pointer;
@@ -193,7 +193,7 @@ button {
 
 .dropdown1 ul, .dropdown2 ul, .dropdown3 ul {
   overflow: hidden;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   margin-top: -3px;
   padding: 0;
@@ -257,7 +257,8 @@ color: red;
 }
 
 #educated, #husbandssecret, #littlefires {
-  width: 50%;
+  height: 325px;
+  width: 200px;
   position: relative;
 }
 
@@ -271,18 +272,19 @@ color: red;
   }
 
 h1 {
-font-size: 50px;
+font-size: 100px;
 }
 
 #educated, #husbandssecret, #littlefires {
-  width: 30%;
+  height: 75%;
+  width: 50%;
   position: relative;
 }
 
 
 .dropdown1 ul, .dropdown2 ul, .dropdown3 ul {
   overflow: hidden;
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   margin-top: -3px;
   padding: 0;
@@ -296,7 +298,7 @@ button {
   position: relative;
   z-index: 1;
   display: block;
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   padding: 10px;
   cursor: pointer;
